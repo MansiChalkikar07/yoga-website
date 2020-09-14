@@ -1,0 +1,33 @@
+body{
+
+ background-color:white;
+ text-align:center;
+  background-image: url("geo.jpg");
+  background-repeat:no-repeat;
+  background-position: center-center;
+  background-size: 1500px 1500px;
+  
+
+}
+
+#first{
+      background-image: url("flowers.jpg");
+  background-repeat:no-repeat;
+  background-position: center-center;
+  background-size: 570px 570px;
+  
+         word-spacing:3px;
+       background-color:white;
+       color:black;
+     
+  margin:0 auto ;
+       
+       
+
+        
+}
+#first:hover
+{
+     color:blue;
+
+}

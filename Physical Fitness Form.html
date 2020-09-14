@@ -1,0 +1,94 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Fitness Form</title>
+<head>
+	<meta charset="UTF-8">
+	<title>Fitness</title>
+	<link rel="stylesheet" href="reg.css">
+</head>
+<body >
+
+<h3> FITNESS REGISTRATION FORM </h3>
+<hr>
+<form name="myform" method=post action="file:///E:/cssprogram/Yog%20Asan1.html">
+
+<table id="first" cellspacing = "15" cellpadding = "15" border = "5" />
+<tr>
+   <td align = "center">Full Name</td>
+   <td><input  type="text" name="Name" required ><br>
+	</td>
+    </tr>
+
+    <tr>
+      <td align = "center">Phone Number</td>
+      <td>
+     	<input type="number" name="Phone" required> <br>
+		</td>
+    	</tr>
+
+
+    <tr>
+       <td align = "center">Email Address</td>
+       <td>
+		<input type="email" name="email" placeholder="Enter email address" required><br>
+		</td>
+    	</tr>
+
+
+    <tr>
+       <td align = "center">Date Of Birth</td>
+       <td>
+		<input type="Date" name="DOB" required><br>
+		</td>
+    	</tr>
+    	<tr>
+       <td align = "center">Password</td>
+       <td>
+		<input type="password" name="pass"required><br>
+		</td>
+    	</tr>
+
+    <tr>
+       <td align = "center">Re-Password</td>
+       <td>
+		<input type="password" name="repass"required><br>
+		</td>
+    	</tr>
+
+		<tr>
+       <td align = "center">Gender</td>
+       <td>
+		<input type="Radio" name="gender" value="Male"> Female
+		<input type="Radio" name="gender" value="Female">Male
+		</td>
+		</tr>
+		<tr>
+       <td align = "center">submit</td>
+       <td><input type="submit" onclick="return validateform()" value="submit">
+			<br>
+		</td>
+    	</tr>
+    </table>
+ 	</form>
+	</div>
+   <script language="javascript"type="text/javascript">
+    function return validateform()
+    {
+      function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+    }
+
+ </script>
+</body>
+</html>
